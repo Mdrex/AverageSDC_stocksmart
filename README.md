@@ -23,3 +23,5 @@ Stock SMART outputs should be verified.
    - Plots national stock status.
 
 All credit to [`samrblackburn/fish_stock_figure`](https://github.com/samrblackburn/fish_stock_figure).
+
+<img width="891" height="423" alt="image" src="https://github.com/user-attachments/assets/4342a843-2b32-4a47-817e-6fb87c420380" />
