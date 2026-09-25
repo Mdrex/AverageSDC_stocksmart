@@ -1,0 +1,1 @@
+# AverageSDC_stocksmart
