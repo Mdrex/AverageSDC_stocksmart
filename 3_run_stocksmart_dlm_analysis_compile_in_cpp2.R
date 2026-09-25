@@ -17,7 +17,7 @@ library(TMB)
 # 1. Project paths and TMB compilation/loading
 # ------------------------------------------------------------
 
-project_dir <- "C:/Users/mdrexler/Box/md0929/MSA50/fish_stock_figure-main/fish_stock_figure-main"
+project_dir <- "fish_stock_figure-main"
 cpp_dir <- file.path(project_dir, "cpp")
 cpp_file <- file.path(cpp_dir, "dlm_ar1.cpp")
 
