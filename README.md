@@ -1,31 +1,25 @@
-AverageSDC Stock SMART
+# AverageSDC Stock SMART
 
-This code adapts the approach from samrblackburn/fish_stock_figure and integrates Stock SMART data instead of RAM Legacy data.
+This code adapts the approach from [samrblackburn/fish_stock_figure](https://github.com/samrblackburn/fish_stock_figure) and integrates Stock SMART data instead of RAM Legacy data.
 
 Stock SMART outputs should be verified.
 
-    Stock SMART F and B basis should be verified.
+- Stock SMART F and B basis should be verified.
+- Output data and model results should be verified.
 
-    Output data and model results should be verified.
+## Steps
 
-Steps
+1. **`1_SM data and ratio estimates.R`**
+   - Pulls Stock SMART data and generates ratio estimates.
 
-    1_SM data and ratio estimates.R
+2. **`2_Fratio and Bratio plot validation.R`**
+   - Use this to validate trends against the original assessment document linked through Stock SMART.
 
-        Pulls Stock SMART data and generates ratio estimates.
+3. **`3_run_stocksmart_dlm_analysis_compile_in_cpp2.R`**
+   - Modifies the [`samrblackburn/fish_stock_figure`](https://github.com/samrblackburn/fish_stock_figure) workflow.
+   - Requires downloading [`samrblackburn/fish_stock_figure`](https://github.com/samrblackburn/fish_stock_figure).
 
-    2_Fratio and Bratio plot validation.R
+4. **`4_plot_national_stock_status.R`**
+   - Plots national stock status.
 
-        Use this to validate trends against the original assessment document linked through Stock SMART.
-
-    3_run_stocksmart_dlm_analysis_compile_in_cpp2.R
-
-        Modifies the samrblackburn/fish_stock_figure workflow.
-
-        Requires downloading samrblackburn/fish_stock_figure.
-
-    4_plot_national_stock_status.R
-
-        Plots national stock status.
-
-All credit to samrblackburn/fish_stock_figure.
+All credit to [`samrblackburn/fish_stock_figure`](https://github.com/samrblackburn/fish_stock_figure).
